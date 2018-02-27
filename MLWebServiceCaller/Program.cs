@@ -90,7 +90,7 @@ namespace CallRequestResponseService
                     }
                 };
 
-                const string apiKey = "Removed"; // Replace this with the API key for the web service
+                const string apiKey = "Removed For Privacy"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
                 client.BaseAddress = new Uri("https://asiasoutheast.services.azureml.net/workspaces/fcdfe695d0db4a37b0b572c1b4a1a0a3/services/c3be3bee8f5f421786719f6e2af43d87/execute?api-version=2.0&format=swagger");
 
