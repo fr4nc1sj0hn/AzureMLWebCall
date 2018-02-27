@@ -19,7 +19,7 @@ namespace CallRequestResponseService
         static void Main(string[] args)
         {
             InvokeRequestResponseService().Wait();
-            Console.WriteLine("Press any key to exit Console.");
+            Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
 
